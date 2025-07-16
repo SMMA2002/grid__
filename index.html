@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda Ropa - Grid</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+
+    .producto {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .producto img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .producto h3, .producto p {
+      margin: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tienda Ropa Grid</h1>
+  </header>
+  <section class="grid">
+    <div class="producto">
+      <img src="imagenes/camisablanca.jpg" alt="Camisa">
+      <h3>Camisa Blanca</h3>
+      <p>$350</p>
+    </div>
+    <div class="producto">
+       <img src="imagenes/estampado2.jpeg" alt="Camisa">
+      <h3>Camisa estampado Lineas azules</h3>
+      <p>$500</p>
+    </div>
+
+        <div class="producto">
+       <img src="imagenes/estampado3.jpeg" alt="Camisa">
+      <h3>Camisa estampado de pañoleta</h3>
+      <p>$350</p>
+    </div>
+    <div class="producto">
+       <img src="imagenes/estampado4.webp" alt="Camisa">
+      <h3>Camisa estampado playero</h3>
+      <p>$350</p></h3>
+      <p>$500</p>
+    </div>
+
+        <div class="producto">
+      <img src="imagenes/estanpado1.avif" alt="Camisa">
+      <h3>Camisa maritimo</h3>
+      <p>$350</p>
+    </div>
+    <div class="producto">
+          <img src="imagenes/camisas.webp" alt="Camisa">
+          <h3>Camisa verde formal</h3>
+      <p>$500</p>
+    </div>
+
+        <div class="producto">
+      <img src="imagenes/pantalon1.jpg" alt="Pantalón">
+      <h3>Pantalón corte recto</h3>
+      <p>$350</p>
+    </div>
+    <div class="producto">
+      <img src="imagenes/pantalon2.avif" alt="Pantalón">
+      <h3>Pantalón corte A</h3>
+      <p>$500</p>
+    </div>
+
+        <div class="producto">
+      <img src="imagenes/pantalon3.webp" alt="Pantalón">
+      <h3>Pantalón corte recto deslavado</h3>
+      <p>$350</p>
+    </div>
+    <div class="producto">
+      <img src="imagenes/pantalon4.webp" alt="Pantalón">
+      <h3>Pantalón Baggy</h3>
+      <p>$500</p>
+    </div>
+
+        <div class="producto">
+     <img src="imagenes/pantalon5.png" alt="Pantalón">
+      <h3>short azul</h3>
+      <p>$350</p>
+    </div>
+    <div class="producto">
+      <img src="imagenes/pantalo6.jpg" alt="Pantalón">
+      <h3>short baggy</h3>
+      <p>$500</p>
+    </div>
+    <!-- Agrega más productos -->
+  </section>
+</body>
+</html>
